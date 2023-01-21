@@ -1,0 +1,14 @@
+# デフォルトの無視対象ファイル
+/shelf/
+/workspace.xml
+compiler.xml
+encodings.xml
+jarRepositories.xml
+misc.xml
+modules.xml
+workspace.xml
+/src/main
+!StreamTest
+target/
+Kadai4.iml
+pom.xml
