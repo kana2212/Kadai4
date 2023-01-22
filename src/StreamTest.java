@@ -15,7 +15,7 @@ public class StreamTest {
         System.out.println(distinct);
         System.out.println("----------");
 
-        List<String> sortedResult = names.stream().sorted().toList();
+        List<String> sortedResult = names.stream().map(name -> name.toUpperCase()).sorted().toList();
         System.out.println("アルファベット順");
         System.out.println(sortedResult.stream().distinct().toList());
         System.out.println("----------");
